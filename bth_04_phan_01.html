@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>Onclick increase Table Rows</title>
-    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
     <style>
       input[value="Thêm"],
       input[value="Xóa"],
@@ -66,6 +66,7 @@
         border: 1px solid #ddd;
         padding: 8px;
         text-align: left;
+        border-radius: 5px;
       }
 
       #myForm th {
@@ -136,7 +137,7 @@
               hoten: row.find("td:eq(1) input").val(),
               ngaysinh: row.find("td:eq(2) input").val(),
               mlcn: row.find("td:eq(3) select").val(),
-              tlcn: row.find("td:eq(4) input").val(), // Thay đổi ở đây
+              tlcn: row.find("td:eq(4) input").val(),
               gender: row.find("td:eq(5) input[name^='gender']:checked").val(),
             };
           })

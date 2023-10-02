@@ -1,0 +1,93 @@
+input[value="Thêm"],
+input[value="Xóa"],
+input[value="Lưu"] {
+  border-style: solid;
+  font-size: 14px;
+  height: 28px;
+  width: 55px;
+  background-color: rgb(43, 139, 223);
+  color: white;
+  border-radius: 5px;
+  padding: 2px;
+  cursor: pointer;
+}
+input[value="Thêm"] {
+  background-color: rgb(43, 139, 223);
+}
+input[value="Xóa"] {
+  background-color: orange;
+}
+input[value="Lưu"] {
+  background-color: #2ab508;
+}
+input[name="msv[]"],
+input[name="hoten[]"],
+input[name="ngaysinh[]"],
+input[name="tlcn[]"],
+select[name="mlcn[]"],
+input[name="gender[]"] {
+  border: 2px;
+  font-size: 14px;
+  border-style: solid;
+  border-color: rgb(42, 47, 146);
+  color: black;
+  border-radius: 5px;
+  height: 28px;
+  margin: 0 5px 5px 0;
+}
+input[name="msv[]"] {
+  width: 120px;
+}
+select[name="mlcn[]"] {
+  color: rgb(177, 38, 38);
+  width: 120px;
+}
+input[name="hoten[]"] {
+  width: 180px;
+}
+input[name="ngaysinh[]"] {
+  width: 120px;
+}
+input[name="tlcn[]"] {
+  width: 170px;
+}
+
+#export {
+  border-style: solid;
+  font-size: 16px;
+  height: 36px;
+  width: 64px;
+  background-color: rgba(118, 33, 255, 0.568);
+  color: white;
+  border-radius: 6px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+#myForm {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+#myForm th,
+#myForm td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+#myForm th {
+  background-color: #4caf50;
+  color: white;
+}
+
+#myForm tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#myForm tr:hover {
+  background-color: #ddd;
+}
