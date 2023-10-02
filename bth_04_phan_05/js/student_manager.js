@@ -4,12 +4,12 @@ function addRows() {
   var cellCount = table.rows[0].cells.length;
   var row = table.insertRow(rowCount);
   var prevGender = "";
-  if (rowCount > 2) {
-    var prevRow = table.rows[rowCount - 2];
-    prevGender = prevRow.cells[5].querySelector(
-      'input[name^="gender"]:checked'
-    ).value;
-  }
+  // if (rowCount > 2) {
+  //   var prevRow = table.rows[rowCount - 2];
+  //   prevGender = prevRow.cells[5].querySelector(
+  //     'input[name^="gender"]:checked'
+  //   ).value;
+  // }
   for (var i = 0; i <= cellCount; i++) {
     var cell = "cell" + i;
     cell = row.insertCell(i);
