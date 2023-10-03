@@ -1,0 +1,19 @@
+body {
+  padding-top: 50px;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+.data-table th, .data-table td {
+  vertical-align: middle;
+}
+
+.vertical-line {
+  border-left: 1px solid gray;
+  height: 15px;
+  margin: 0 auto;
+}
+
+button[type="submit"] {
+  margin-top: 10px;
+}
